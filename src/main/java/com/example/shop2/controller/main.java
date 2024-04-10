@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class main {
 
-    @GetMapping("/hello")
+    @GetMapping("/")
     @ResponseBody
     public String hello() {
-        return "no";
+        return "성공적인 회원가입.";
     }
 }
